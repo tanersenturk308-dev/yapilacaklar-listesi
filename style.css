@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box
+    
+}
+
+
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+button:hover{
+    opacity: 0.8;
+}
+li[item-completed]{
+    color: grey;
+    text-decoration: line-through;
+}
+
+
+
+.container{
+    background-color: lightskyblue;
+    width: 50%;
+    height: 80%;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 8px 6px -6px black;
+}
+.wrapper{
+    width: 100%;
+}
+.title{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.add-form{
+    display: flex;
+}
+.add-input{
+    flex: 5;
+    padding: 10px 5px;
+    height: 40px;
+    width: 250px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    
+}
+.add-btn{
+    background-color: forestgreen;
+    flex: 1;
+    padding: 10px 5px;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+}
+.item-checkbox{
+    cursor: pointer;
+}
+
+.items{
+    list-style: none;
+}
+.item{
+    margin: 10px 5px;
+    padding: 10px 5px;
+    border-radius: 5px;
+    background-color: forestgreen;
+    display: flex;
+    
+}
+.item-text{
+    flex: 1;    
+}
+
+.item-checkbox{
+    margin: 0px 4px;
+}
+.remove-btn{
+    background-color: red;
+    padding: 10px 5px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.completed{
+    color: grey;
+    text-decoration: line-through;
+}
+
+.btn-filter{
+    margin: 10px 0 ;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: blue;
+}
+
+.btn-selected{
+    background-color: cadetblue;
+}
+
+.btn-default{
+    background-color: grey;
+}
+.btn-filter button{
+    padding: 6px 3px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+
+}
+.alert{
+    opacity: 0.9;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: burlywood;
+    margin: 10px 0;
+}
+
+.d-none{
+    display: none !important;
+}
+.d-flex{
+    display: flex !important;
+}
+.d-block{
+    display: block !important;
+}
